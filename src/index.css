@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+/* Remove focus outline from Recharts elements */
+.recharts-wrapper,
+.recharts-surface,
+.recharts-layer,
+.recharts-bar,
+.recharts-pie,
+.recharts-line,
+.recharts-dot,
+.recharts-active-dot,
+.recharts-sector {
+  outline: none !important;
+}
+
+/* Remove focus outline from SVG elements */
+svg:focus,
+svg *:focus {
+  outline: none !important;
+}
