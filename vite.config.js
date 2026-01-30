@@ -7,12 +7,15 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 5173,
+    allowedHosts: [
+      "jenifer-deathlike-nonprudentially.ngrok-free.dev",
+    ],
   },
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 4173,
     allowedHosts: [
-      'dev-ambikaschool.onrender.com',  // 👈 add your Render domain here
+      "jenifer-deathlike-nonprudentially.ngrok-free.dev",
     ],
   },
 })
