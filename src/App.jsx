@@ -167,7 +167,7 @@ const App = () => {
 
   const handleDownload = (e) => {
     e.preventDefault();
-    
+  
     if (formData.letterType === 'experience') {
       generateExperienceLetter();
     } else {
