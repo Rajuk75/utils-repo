@@ -12,7 +12,7 @@ export default defineConfig({
     host: '0.0.0.0',
     port: process.env.PORT || 4173,
     allowedHosts: [
-      'dev-ambikaschool.onrender.com',  // 👈 add your Render domain here
+      'dev-ambikaschool.onrender.com',
     ],
   },
 })
